@@ -7,10 +7,10 @@ class Navbar extends Component {
       <header>
         <h2>Recipe App</h2>
         <nav>
-          <li>New Recipe</li>
-          <li>Home</li>
-          <li>About</li>
-          <li>Contact Us</li>
+          <li><a href={`/#`}>New Recipe</a></li>
+          <li><a href={`/#`}>Home</a></li>
+          <li><a href={`/#`}>About</a></li>
+          <li><a href={`/#`}>Contact Us</a></li>
         </nav>
       </header>
     );

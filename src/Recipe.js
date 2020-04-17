@@ -9,9 +9,9 @@ class Recipe extends Component {
     instructions: PropTypes.string.isRequired,
     img: PropTypes.string.isRequired,
   }
+
   render() {
     const { title, img, instructions } = this.props;
-
     const ingredients = this.props.ingredients.map((ing, index) => (
       <li key={index}>{ing}</li>
     ));
