@@ -6,6 +6,7 @@
 
 @media (max-width: 580px) {
   .recipe-list {
-    display: block;
+    /* display: block; */
+    justify-content: space-around;
   }
 }

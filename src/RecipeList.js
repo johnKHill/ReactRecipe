@@ -4,6 +4,7 @@ import PropTypes from "prop-types";
 import "./RecipeList.css";
 
 class RecipeList extends Component {
+
   static propTypes = {
     recipes: PropTypes.arrayOf(PropTypes.object).isRequired,
     onDelete: PropTypes.func.isRequired

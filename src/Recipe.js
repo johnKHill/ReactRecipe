@@ -3,6 +3,7 @@ import PropTypes from "prop-types";
 import "./Recipe.css";
 
 class Recipe extends Component {
+
   static propTypes = {
     title: PropTypes.string.isRequired,
     ingredients: PropTypes.arrayOf(PropTypes.string).isRequired,
